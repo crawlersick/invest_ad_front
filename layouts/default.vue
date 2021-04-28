@@ -21,6 +21,7 @@
     <b-button size="sm" class="mb-2">
       <b-icon icon="gear-fill" aria-hidden="true"></b-icon> Settings
     </b-button>
+    <NuxtLink to="/about">about</NuxtLink>
     </b-sidebar>
   </div>
 
@@ -32,8 +33,8 @@
           <b-icon icon="layout-sidebar" aria-hidden="true"></b-icon>
         </b-button>
         </b-navbar-brand>
-        
-        <b-navbar-brand href="#">NavBar</b-navbar-brand>
+
+        <b-navbar-brand to="/">NavBar</b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
