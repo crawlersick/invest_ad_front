@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Plotly :data="data" :layout="layout" :display-mode-bar="false"></Plotly>
+    <Plotly :data="data" :layout="layout" :display-mode-bar="false" />
 
     <div>
       <Logo />
@@ -35,15 +35,15 @@ export default {
   components: {
     Plotly
   },
-data() {
-  return {
-      data:[{
-        x: [1,2,3,4],
-        y: [10,15,13,17],
-        type:"scatter"
-      }],
+  data () {
+    return {
+      data: [{
+        x: [1, 2, 3, 4],
+        y: [10, 15, 13, 17],
+        type: 'scatter'
+      }]
+    }
   }
-}
 
 }
 </script>
